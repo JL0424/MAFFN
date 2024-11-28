@@ -61,7 +61,6 @@ def do_test(
     evaluator.run(data_loader['eval'])
     cmc, mAP, mINP = evaluator.state.metrics['r1_mAP_mINP']
     logger.info('Validation Results')
-    logger.info("mINP: {:.1%}".format(mINP))
     logger.info("mAP: {:.1%}".format(mAP))
     if cfg.TEST.PARTIAL_REID == 'off':
         for r in [1, 5, 10]:
