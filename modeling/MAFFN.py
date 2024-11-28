@@ -9,11 +9,9 @@ import collections
 from torch.nn import ModuleList
 
 from modeling.backbones.resnet import ResNet, Bottleneck
-from modeling.backbones.senet import SENet, SEResNetBottleneck, SEBottleneck, SEResNeXtBottleneck
-from modeling.backbones.resnet_ibn_a import resnet50_ibn_a
 from modeling.backbones.resnet_nl import ResNetNL
 from modeling.layer import CrossEntropyLabelSmooth, TripletLoss, WeightedRegularizedTriplet, CenterLoss, \
-    GeneralizedMeanPooling, GeneralizedMeanPoolingP, ChannelAttention, SpatialAttention, ShuffleAttention, GCP, Relation
+    GeneralizedMeanPooling, GeneralizedMeanPoolingP, ChannelAttention, SpatialAttention
 
 
 def weights_init_kaiming(m):
