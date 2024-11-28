@@ -3,8 +3,6 @@
 import torch
 import torch.nn as nn
 
-import logging
-
 # 通道注意力模块
 class ChannelAttention(nn.Module):
     def __init__(self, in_planes, ratio=16):
