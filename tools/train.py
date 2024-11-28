@@ -154,7 +154,6 @@ def do_train(
                 evaluator.run(data_loader['eval'])
                 cmc, mAP, mINP = evaluator.state.metrics['r1_mAP_mINP']
                 logger.info("Validation Results - Epoch: {}".format(engine.state.epoch))
-                logger.info("mINP: {:.1%}".format(mINP))
                 logger.info("mAP: {:.1%}".format(mAP))
                 for r in [1, 5, 10]:
                     logger.info("CMC curve, Rank-{:<3}:{:.1%}".format(r, cmc[r - 1]))
@@ -162,7 +161,6 @@ def do_train(
                 evaluator_reid.run(data_loader['eval_reid'])
                 cmc, mAP, mINP = evaluator_reid.state.metrics['r1_mAP_mINP']
                 logger.info("Validation Results - Epoch: {}".format(engine.state.epoch))
-                logger.info("mINP: {:.1%}".format(mINP))
                 logger.info("mAP: {:.1%}".format(mAP))
                 for r in [1, 3, 5, 10]:
                     logger.info("CMC curve, Rank-{:<3}:{:.1%}".format(r, cmc[r - 1]))
@@ -170,7 +168,6 @@ def do_train(
                 evaluator_ilids.run(data_loader['eval_ilids'])
                 cmc, mAP, mINP = evaluator_ilids.state.metrics['r1_mAP_mINP']
                 logger.info("Validation Results - Epoch: {}".format(engine.state.epoch))
-                logger.info("mINP: {:.1%}".format(mINP))
                 logger.info("mAP: {:.1%}".format(mAP))
                 for r in [1, 3, 5, 10]:
                     logger.info("CMC curve, Rank-{:<3}:{:.1%}".format(r, cmc[r - 1]))
