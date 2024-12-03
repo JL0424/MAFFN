@@ -7,8 +7,10 @@
 
 ## The experiments were conducted on the following three publicly available datasets: 
 [Market1501](https://github.com/sybernix/market1501)
-[DukeMTMC-ReID]()
-[CUHK03]()
+
+[DukeMTMC-ReID](https://gitcode.com/Resource-Bundle-Collection/f7e06/?utm_source=pan_gitcode&index=top&type=card&)
+
+[CUHK03](https://aistudio.baidu.com/datasetdetail/86044/0)
 
 ## Experimental train and test commands are:
 '''
