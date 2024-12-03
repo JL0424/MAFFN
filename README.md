@@ -33,12 +33,12 @@ datasets
 The rest of the dataset operates as above
 
 2.Install dependencies
-- ssss
-- ssss
-- sssss
-- sss
-- sss
-- sss
+- pytorch
+- torchvision
+- pytorch-ignite
+- yacs
+- scipy
+- h5py
 
 3.Train and Test
 Enter the following commands to train and test the model:
