@@ -13,9 +13,9 @@
 [CUHK03](https://aistudio.baidu.com/datasetdetail/86044/0)
 
 ## Experimental train and test commands are:
-'''
+```
 python test
-'''
+```
 
 
 
