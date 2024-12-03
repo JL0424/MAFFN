@@ -14,7 +14,7 @@
 
 ## Experimental train and test commands are:
 ```
-python test
+python tools/main.py --config_file='configs/AGW_baseline.yml' MODEL.DEVICE_ID "('0')" DATASETS.NAMES "('market1501')"
 ```
 
 
