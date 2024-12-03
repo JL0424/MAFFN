@@ -12,26 +12,39 @@
 
 [CUHK03](https://aistudio.baidu.com/datasetdetail/86044/0)
 
-## Experimental train and test commands are:
+## Quick Star
+1.Prepare dataset
+Create a directory to store reid datasets under this repo, taking Market1501 for example
+```
+cd MAFFN
+mkdir datasets
+```
+* Set _C.DATASETS.ROOT_DIR = ('./datasets') in config/defaults.py
+* Download dataset to datasets
+* Extract dataset and rename to market1501. The data structure would like:
+```
+datasets
+    market1501
+        bounding_box_test/
+        bounding_box_train/
+        ......
+```
+The rest of the dataset operates as above
+2.Install dependencies
+- ssss
+- ssss
+- sssss
+- sss
+- sss
+- sss
+3.Train and Test
+Enter the following commands to train and test the model:
 ```
 python tools/main.py --config_file='configs/AGW_baseline.yml' MODEL.DEVICE_ID "('0')" DATASETS.NAMES "('market1501')"
 ```
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+```
+python tools/main.py --config_file='configs/AGW_baseline.yml' MODEL.DEVICE_ID "('0')" DATASETS.NAMES "('market1501')"  MODEL.PRETRAIN_CHOICE "('self')" TEST.WEIGHT "('./pretrained/market1501_AGW.pth')" TEST.EVALUATE_ONLY "('on')"
+```
 
 ### Please consult the author for code issues.
+Contact: Z20231090862@stu.ncwu.edu.cn or HNYCJL@163.com or 1710715380@qq.com
