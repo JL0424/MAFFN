@@ -14,6 +14,7 @@
 
 ## Quick Star
 1.Prepare dataset
+
 Create a directory to store reid datasets under this repo, taking Market1501 for example
 ```
 cd MAFFN
@@ -30,6 +31,7 @@ datasets
         ......
 ```
 The rest of the dataset operates as above
+
 2.Install dependencies
 - ssss
 - ssss
@@ -37,13 +39,14 @@ The rest of the dataset operates as above
 - sss
 - sss
 - sss
+
 3.Train and Test
 Enter the following commands to train and test the model:
 ```
-python tools/main.py --config_file='configs/AGW_baseline.yml' MODEL.DEVICE_ID "('0')" DATASETS.NAMES "('market1501')"
+python tools/main.py --config_file='configs/experiment.yml' DATASETS.NAMES "('market1501')"
 ```
 ```
-python tools/main.py --config_file='configs/AGW_baseline.yml' MODEL.DEVICE_ID "('0')" DATASETS.NAMES "('market1501')"  MODEL.PRETRAIN_CHOICE "('self')" TEST.WEIGHT "('./pretrained/market1501_AGW.pth')" TEST.EVALUATE_ONLY "('on')"
+python tools/main.py --config_file='configs/experiment.yml' DATASETS.NAMES "('market1501')"  MODEL.PRETRAIN_CHOICE "('self')" TEST.WEIGHT "('./pretrained/market1501_AGW.pth')" TEST.EVALUATE_ONLY "('on')"
 ```
 
 ### Please consult the author for code issues.
