@@ -10,6 +10,7 @@
 
 ![](./image/PAM.jpg)
 2.Feature fusion between different branches
+![](./image/network.jpg)
 
 
 ## Datasets: 
