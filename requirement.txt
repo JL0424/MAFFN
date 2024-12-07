@@ -1,0 +1,6 @@
+pytorch=1.0.0
+torchvision=0.2.1
+pytorch-ignite=0.1.2
+yacs
+scipy=1.2.1
+h5py
