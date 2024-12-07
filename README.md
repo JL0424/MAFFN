@@ -7,7 +7,7 @@
 
 ## Description of the key algorithms
 1.Parallel Attention Module
-
+[s](./image/PAM.jpg)
 2.Feature fusion between different branches
 
 
