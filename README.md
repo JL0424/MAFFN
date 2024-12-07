@@ -5,9 +5,7 @@
 <li>We design a Parallel Attention Module (PAM), which extracts the discriminative information of pedestrians through channel and spatial attention, and the parallel structure both improves the model efficiency and enhances the intercorrelation between features through fusion technique. </li>
 <li>Experiments on the Market-1501, DukeMTMC-ReID, and CUHK03 datasets show that MAFFN outperforms the comparative methods and achieves the best level of performance in the three datasets tested. </li>
 
-## Dependency and Datasets: 
-Algorithm dependencies are installed as described in the requirements.txt file
-
+## Datasets: 
 The dataset used for the experiment is as follows：
 
 [Market1501](https://github.com/sybernix/market1501)
@@ -38,12 +36,7 @@ datasets
 The rest of the dataset operates as above
 
 2.Install dependencies
-- pytorch
-- torchvision
-- pytorch-ignite
-- yacs
-- scipy
-- h5py
+Algorithm dependencies are installed as described in the requirements.txt file
 
 3.Train and Test
 Enter the following commands to train and test the model:
