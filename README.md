@@ -6,10 +6,9 @@
 <li>Experiments on the Market-1501, DukeMTMC-ReID, and CUHK03 datasets show that MAFFN outperforms the comparative methods and achieves the best level of performance in the three datasets tested. </li>
 
 ## Description of the key algorithms
-1.Parallel Attention Module
-
+### 1.Parallel Attention Module
 ![](./image/PAM.jpg)
-2.Feature fusion between different branches
+### 2.Feature fusion between different branches
 ![](./image/network.jpg)
 
 
