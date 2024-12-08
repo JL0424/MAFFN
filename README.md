@@ -15,7 +15,7 @@ Inter-branch feature fusion makes full use of the complementary information of d
 PAM extracts multidimensional discriminative information of the feature map through channel attention and spatial attention mechanisms to enhance the robustness of pedestrian features. The channel attention mechanism generates global feature descriptors by average pooling and maximum pooling of the input feature map, which are then multiplied element-by-element with the original features after generating channel weights via the shared fully-connected layer to enhance important channel information. The spatial attention mechanism, on the other hand, generates spatial feature descriptors through average pooling and maximum pooling of channel dimensions, and inputs the two into the convolutional layer to generate spatial weights after splicing, which are then applied to the feature map to highlight key location features. Ultimately, the channel and spatial attention features are summed with the original features to obtain the fused attention features to improve the discriminative power and efficiency of the model.
 
 ## Datasets: 
-The dataset used for the experiment is as follows：
+All three datasets are publicly available and download links have been provided to access the datasets by clicking on the corresponding dataset.The dataset used for the experiment is as follows：
 
 [Market1501](https://github.com/sybernix/market1501)
 
