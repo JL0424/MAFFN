@@ -10,9 +10,13 @@
 ![](./image/network.jpg)
 MAFFN adopts a multi-branch structure of global branching, attention branching and local branching to achieve multi-level feature extraction. Among them, the global branch extracts global features through the generalised mean pooling layer (GMP) to provide holistic information; the attention branch uses the PAM to focus on locally salient regions to obtain fine discriminative features; and the local branch captures fine-grained regional features through horizontal chunking cuts. The inter-branch feature fusion mechanism combines the advantages of the global branch and the attention branch, and enhances the information interaction between different features through feature splicing and dimensionality reduction operations during fusion, so that the final extracted pedestrian features are more robust and discriminative in complex scenarios.
 
+implement：
+
 ### 2.Parallel Attention Module
 ![](./image/PAM.jpg)
 In MAFFN (Multi-branch Attention Feature Fusion Network), PAM is integrated into the attention branch for enhancing the discriminative power of local features. Specifically, PAM extracts different dimensional information of the feature map through the channel attention module and the spatial attention module, and then fuses these attention features to form the final attention features by combining the original features. These features improve the overall feature discrimination and robustness in the subsequent feature fusion, and at the same time, due to its parallel structure design, it is able to efficiently utilise the parallel computing power of GPUs, further improving the processing speed of the model.
+
+implement：
 
 ## Datasets: 
 The dataset used for the experiment is as follows：
