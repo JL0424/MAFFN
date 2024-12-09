@@ -17,11 +17,11 @@ PAM extracts multidimensional discriminative information of the feature map thro
 ## Datasets: 
 All three datasets are publicly available and download links have been provided to access the datasets by clicking on the corresponding dataset.The dataset used for the experiment is as follows：
 
-[Market1501](https://github.com/sybernix/market1501)
+[Market1501](https://www.kaggle.com/datasets/sachinsarkar/market1501)
 
-[DukeMTMC-ReID](https://gitcode.com/Resource-Bundle-Collection/f7e06/?utm_source=pan_gitcode&index=top&type=card&)
+[DukeMTMC-ReID](https://www.kaggle.com/datasets/whurobin/dukemtmcreid)
 
-[CUHK03](https://aistudio.baidu.com/datasetdetail/86044/0)
+[CUHK03](https://www.kaggle.com/datasets/priyanagda/cuhk03)
 
 
 ## Quick Star
