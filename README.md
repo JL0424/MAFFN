@@ -32,7 +32,7 @@ Create a directory to store reid datasets under this repo, taking Market1501 for
 cd MAFFN
 mkdir datasets
 ```
-* Set _C.DATASETS.ROOT_DIR = ('./datasets') in config/defaults.py
+* Set _C.DATASETS.ROOT_DIR = (`./datasets`) in `config/defaults.py`
 * Download dataset to datasets
 * Extract dataset and rename to market1501. The data structure would like:
 ```
@@ -46,7 +46,7 @@ The rest of the dataset operates as above
 
 2.Install dependencies
 
-Algorithm dependencies are installed as described in the requirements.txt file
+Algorithm dependencies are installed as described in the `requirements.txt` file
 
 3.Train and Test
 Enter the following commands to train and test the model:
