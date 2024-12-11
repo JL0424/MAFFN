@@ -25,7 +25,7 @@ All three datasets are publicly available and download links have been provided 
 
 ## Test Result
 The test results on the three datasets are shown in the table below:
-| Method  | Market1501 | DukeMTMC-ReID | CUHK03 |
+| Method  | Market1501 |  | DukeMTMC-ReID | | CUHK03 |  |
 | ------------- | ------------- |------------- |------------- |------------- | ------------- | ------------- |
 |   | Rank-1 | mAP | Rank-1 | mAP | Rank-1 | mAP |
 | MAFFN  | Content Cell  | Content Cell  | Content Cell  |
