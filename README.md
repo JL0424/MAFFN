@@ -23,6 +23,11 @@ All three datasets are publicly available and download links have been provided 
 
 [CUHK03](https://www.kaggle.com/datasets/priyanagda/cuhk03)
 
+## Test Result
+The test results on the three datasets are shown in the table below:
+| Method  | Market1501 | DukeMTMC-ReID | CUHK03 |
+| ------------- | ------------- | ------------- | ------------- |
+| Content Cell  | Content Cell  | Content Cell  | Content Cell  |
 
 ## Quick Star
 1.Prepare dataset
