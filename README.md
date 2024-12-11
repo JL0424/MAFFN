@@ -25,7 +25,7 @@ All three datasets are publicly available and download links have been provided 
 
 ## Test Result
 The test results on the three datasets are shown in the table below:
-<div align=center>
+<div>
 
 <table class=MsoTableGrid border=1 cellspacing=0 cellpadding=0 width=558
  style='width:418.15pt;border-collapse:collapse;border:none'>
@@ -57,7 +57,7 @@ The test results on the three datasets are shown in the table below:
    </td>
   </tr>
   <tr>
-   <td width=71 style='width:53.15pt;border:none;border-bottom:solid windowtext 1.0pt;
+   <td width=71 style='width:55.15pt;border:none;border-bottom:solid windowtext 1.0pt;
    padding:0cm 5.4pt 0cm 5.4pt'>
    <p class=MsoNormal align=center style='text-align:center'><span lang=EN-US
    style='font-family:"Times New Roman",serif'>Rank-1</span></p>
@@ -67,17 +67,17 @@ The test results on the three datasets are shown in the table below:
    <p class=MsoNormal align=center style='text-align:center'><span lang=EN-US
    style='font-family:"Times New Roman",serif'>mAP</span></p>
    </td>
-   <td width=71 style='width:53.15pt;border:none;border-bottom:solid windowtext 1.0pt;
+   <td width=71 style='width:55.15pt;border:none;border-bottom:solid windowtext 1.0pt;
    padding:0cm 5.4pt 0cm 5.4pt'>
    <p class=MsoNormal align=center style='text-align:center'><span lang=EN-US
    style='font-family:"Times New Roman",serif'>Rank-1</span></p>
    </td>
-   <td width=71 style='width:53.15pt;border:none;border-bottom:solid windowtext 1.0pt;
+   <td width=71 style='width:55.15pt;border:none;border-bottom:solid windowtext 1.0pt;
    padding:0cm 5.4pt 0cm 5.4pt'>
    <p class=MsoNormal align=center style='text-align:center'><span lang=EN-US
    style='font-family:"Times New Roman",serif'>mAP</span></p>
    </td>
-   <td width=71 style='width:53.15pt;border:none;border-bottom:solid windowtext 1.0pt;
+   <td width=71 style='width:55.15pt;border:none;border-bottom:solid windowtext 1.0pt;
    padding:0cm 5.4pt 0cm 5.4pt'>
    <p class=MsoNormal align=center style='text-align:center'><span lang=EN-US
    style='font-family:"Times New Roman",serif'>Rank-1</span></p>
@@ -94,7 +94,7 @@ The test results on the three datasets are shown in the table below:
   <p class=MsoNormal align=center style='text-align:center'><span lang=EN-US
   style='font-family:"Times New Roman",serif'>PCB</span></p>
   </td>
-  <td width=71 style='width:53.15pt;border:none;padding:0cm 5.4pt 0cm 5.4pt'>
+  <td width=71 style='width:55.15pt;border:none;padding:0cm 5.4pt 0cm 5.4pt'>
   <p class=MsoNormal align=center style='text-align:center'><span lang=EN-US
   style='font-family:"Times New Roman",serif'>92.3</span></p>
   </td>
@@ -102,7 +102,7 @@ The test results on the three datasets are shown in the table below:
   <p class=MsoNormal align=center style='text-align:center'><span lang=EN-US
   style='font-family:"Times New Roman",serif'>77.4</span></p>
   </td>
-  <td width=71 style='width:53.15pt;border:none;padding:0cm 5.4pt 0cm 5.4pt'>
+  <td width=71 style='width:55.15pt;border:none;padding:0cm 5.4pt 0cm 5.4pt'>
   <p class=MsoNormal align=center style='text-align:center'><span lang=EN-US
   style='font-family:"Times New Roman",serif'>81.7</span></p>
   </td>
