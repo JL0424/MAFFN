@@ -1,11 +1,14 @@
 # Multi-branch Attention Feature Fusion Network for Person Re-identification
 
-## The innovations of this paper include the following:
+## Overview
+Current multi-branch methodologies for person re-identification primarily concentrate on extracting pedestrian features through a multi-branch architecture, often neglecting the correlation between different features. In this paper, we propose a Multi-Branch Attention Feature Fusion Network (MAFFN), which learns diverse feature representations through a multi-branch structure and employs a feature fusion mechanism to enhance the correlation and  obustness among features.  The MAFFN consists of three components: the attention branch, the global branch, and the local branch. The attention branch incorporates a Parallel Attention Module (PAM) designed to integrate channel attention and spatial attention, thereby extracting discriminative information related to pedestrians from multiple dimensions. The global branch is tasked with capturing overall features, while the local branch concentrates on acquiring fine-grained features. The proposed fusion strategy enhances the correlation between the global branch and the attention branch, significantly improving the discrimination and robustness of pedestrian features. 
+
+The main contribution of this paper can be outlined as follows: 
 <li>We propose a novel Multi-branch Attention Feature Fusion Network (MAFFN) is proposed, which extracts features at different scales through a multi-branch structure and improves robustness by fusing different branch features. </li>
 <li>We design a Parallel Attention Module (PAM), which extracts the discriminative information of pedestrians through channel and spatial attention, and the parallel structure both improves the model efficiency and enhances the intercorrelation between features through fusion technique. </li>
 <li>Experiments on the Market-1501, DukeMTMC-ReID, and CUHK03 datasets show that MAFFN outperforms the comparative methods and achieves the best level of performance in the three datasets tested. </li>
 
-## Description of the key algorithms
+## Methods
 ### 1.Feature fusion between different branches
 ![](./image/network.jpg)
 Inter-branch feature fusion makes full use of the complementary information of different branches by designing global branch, local branch and attention branch. The global branch extracts overall features through generalised average pooling, the local branch obtains fine-grained local information through horizontal chunking, and the attention branch extracts multi-dimensional attention features through PAM. Subsequently, the output of the attention branch is spliced with the global features in the channel dimension, and the interaction and correlation of the features are enhanced by the convolutional dimensionality reduction operation. Eventually, the fused features are combined with the fine-grained features extracted by the local branch to form comprehensive discriminative features for the pedestrian re-identification task, which significantly improves the robustness and adaptability of the model in complex scenes.The implementation of the method can be found in the file `modelling/MAFFN.py`.
