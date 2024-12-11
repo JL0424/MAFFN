@@ -27,8 +27,8 @@ All three datasets are publicly available and download links have been provided 
 The test results on the three datasets are shown in the table below:
 <div>
 
-<table class=MsoTableGrid border=1 cellspacing=0 cellpadding=0 width=570
- style='width:418.15pt;border-collapse:collapse;border:none'>
+<table class=MsoTableGrid border=1 cellspacing=0 cellpadding=0 width=600
+ style='width:500.15pt;border-collapse:collapse;border:none'>
  <thead>
   <tr>
    <td width=132 rowspan=2 style='width:99.2pt;border-top:solid windowtext 1.0pt;
