@@ -10,7 +10,7 @@ The main contribution of this paper can be outlined as follows:
 
 ## Methods
 ### 1.Feature fusion between different branches
-![](./image/MAFFN.jpg)
+![](image/MAFFN.jpg)
 Inter-branch feature fusion makes full use of the complementary information of different branches by designing global branch, local branch and attention branch. The global branch extracts overall features through generalised average pooling, the local branch obtains fine-grained local information through horizontal chunking, and the attention branch extracts multi-dimensional attention features through PAM. Subsequently, the output of the attention branch is spliced with the global features in the channel dimension, and the interaction and correlation of the features are enhanced by the convolutional dimensionality reduction operation. Eventually, the fused features are combined with the fine-grained features extracted by the local branch to form comprehensive discriminative features for the pedestrian re-identification task, which significantly improves the robustness and adaptability of the model in complex scenes.The implementation of the method can be found in the file `modelling/MAFFN.py`.
 
 ### 2.Parallel Attention Module
