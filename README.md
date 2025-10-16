@@ -68,4 +68,5 @@ python tools/main.py --config_file='configs/experiment.yml' DATASETS.NAMES "('ma
 ```
 
 ### Please consult the author for code issues.
+For any questions, please contact the author using the information below. We will address your inquiries.
 Contact: Z20231090862@stu.ncwu.edu.cn or HNYCJL@163.com or 1710715380@qq.com
